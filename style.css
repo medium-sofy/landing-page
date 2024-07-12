@@ -1,5 +1,6 @@
 body {
-  font-family: "ibm plex mono";
+  font-family: "ibm plex mono", "noto mono", "lucida console", "courier new",
+    "andalé mono", monospace;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -143,7 +144,7 @@ h1 {
   font-style: italic;
   color: #1f2937;
   margin: 0;
-  text-align:justify;
+  text-align: justify;
 }
 
 .thor {
@@ -179,28 +180,27 @@ p {
   margin: 0;
 }
 
-.call-container h3{
-    font-size: 24px;
+.call-container h3 {
+  font-size: 24px;
 }
-.call-container button{
-    padding: 8px 40px;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    border: 3px solid white;
-    border-radius: 10px;
-    font-size: 20px;
-
+.call-container button {
+  padding: 8px 40px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 /* Call section end */
 
 /* Footer section */
 
-.footer{
-    height: 100px;
-    background-color: #1f2937;
-    color: #e5e7eb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
