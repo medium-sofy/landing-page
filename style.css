@@ -1,0 +1,206 @@
+body {
+  font-family: "ibm plex mono";
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* Hero section */
+.header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 100px;
+}
+
+.header-logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-container {
+  background-color: #1f2937;
+  color: white;
+  height: 580px;
+  padding-top: 30px;
+}
+
+.hero {
+  width: 1100px;
+  margin: auto;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  /* This website is awesome*/
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.left-hero-content,
+.right-hero-content {
+  width: 550px;
+}
+
+.right-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(57, 64, 80);
+  height: 310px;
+  align-self: flex-end;
+}
+
+.hero-content button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 38px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+/* Hero section end */
+
+/* Info section */
+
+.info {
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+.info h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  margin: 50px;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 168px;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.image-placeholder {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+/* Info section end */
+
+/* Quote section */
+
+.quote-container {
+  height: 430px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 900px;
+}
+
+.quote-text {
+  font-size: 28px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+  text-align:justify;
+}
+
+.thor {
+  text-align: end;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Quote section end */
+
+/* Call section */
+
+.call-section {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-container {
+  width: 1100px;
+  height: 150px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-container h3,
+p {
+  margin: 0;
+}
+
+.call-container h3{
+    font-size: 24px;
+}
+.call-container button{
+    padding: 8px 40px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+/* Call section end */
+
+/* Footer section */
+
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
